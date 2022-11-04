@@ -1,0 +1,151 @@
+#heiblack-container-hb-line-button-tiny{
+    position: fixed;
+    user-select: none;
+}
+#heiblack-container-hb-line-button-tiny #heiblack-box{
+    background: #fdfdfd;
+    height: 500px;
+    width: 280px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    display: none;
+}
+#heiblack-container-hb-line-button-tiny #heiblack-box .heiblack-qrcode{
+    /*background: #ccc;*/
+    height: 300px;
+
+}
+#heiblack-container-hb-line-button-tiny #heiblack-box .heiblack-header{
+    background: #06c755;
+    height: 50px;
+
+}
+#heiblack-container-hb-line-button-tiny #heiblack-box .heiblack-close{
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    float: right;
+    box-sizing: border-box;
+    padding-right: 10px;
+    cursor: pointer;
+
+}
+#heiblack-container-hb-line-button-tiny #heiblack-box .heiblack-qrcode{
+    position: relative;
+}
+#heiblack-container-hb-line-button-tiny #heiblack-box .heiblack-qrcode #heiblack-qrcode{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#heiblack-container-hb-line-button-tiny #heiblack-box .heiblack-header-logo img{
+    padding-top:5px ;
+    padding-left: 5px;
+    float: left;
+}
+#heiblack-container-hb-line-button-tiny #heiblack-box .heiblack-header-text{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    padding-left: 5px;
+    color: #fff;
+}
+
+
+#heiblack-container-hb-line-button-tiny #heiblack-box .heiblack-message{
+    height: 150px;
+    margin: 0px;
+
+    text-align: center;
+}
+
+#heiblack-container-hb-line-button-tiny #heiblack-box .heiblack-message h3{
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+#heiblack-container-hb-line-button-tiny #heiblack-box .heiblack-message span{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+#heiblack-container-hb-line-button-tiny #heiblack-button{
+
+    background: #06c755;
+    height: 55px;
+    width: 55px;
+    border-radius: 55px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    background-image: url('btn_base.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hheiblack-container-hb-line-button-tinyr #heiblack-button-link{
+    display: inline-block;
+
+    background: #06c755;
+    height: 55px;
+    width: 55px;
+    border-radius: 55px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    background-image: url('btn_base.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+#heiblack-container-hb-line-button-tiny .dialogue{
+    position: relative;
+    width: 20%;
+    max-width: 300px;
+    min-width: 200px;
+    z-index: 999;
+    font-size: 0.8rem;
+
+    margin-top: -120px;
+    margin-right: -100px;
+
+    display: none!important;
+
+}
+#heiblack-container-hb-line-button-tiny .dialogue div.box{
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+}
+#heiblack-container-hb-line-button-tiny .dialogue div.box div{
+    position: relative;
+
+    z-index: 999;
+
+}
+#heiblack-container-hb-line-button-tiny .dialogue span.remote{
+    position: absolute;
+    display: inline-block;
+    background: #ffffff;
+    height: 40px;
+    width: 40px;
+    right: 8px;
+    bottom: -3px;
+    transform: rotate(-45deg);
+    margin-bottom: 0px;
+    z-index: 10;
+
+
+}
